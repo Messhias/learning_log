@@ -1,1 +1,3 @@
-# learning_log
+# learning log
+
+## this project is using django
