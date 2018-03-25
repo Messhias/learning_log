@@ -21,5 +21,11 @@
                 There are no entries for this topic yet.
             </li>
         {% endfor %}
+        <li>
+            <a href="{% url 'learning_logs' topic.id %}">
+                Add new entry
+            </a>
+        </li>
     </ul>
+    <a href="{% url 'learning_logs:new_topic' %}">Add new topic</a>
 {% endblock content %}
